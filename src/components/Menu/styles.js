@@ -7,12 +7,13 @@ export const Container = styled(Animated.ScrollView)`
 
 export const Code = styled.View`
   background: #fff;
-  padding: 10px;
+  padding: 5px;
   align-self: center;
+  overflow: hidden;
 `;
 
 export const Nav = styled.View`
-  margin-top: 30px;
+  margin-top: 20px;
   border-top-width: ${StyleSheet.hairlineWidth}px;
   border-top-color: rgba(255, 255, 255, 0.8);
 `;

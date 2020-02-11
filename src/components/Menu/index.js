@@ -24,8 +24,8 @@ export default function Menu({translateY}) {
       <Code>
         <QRCode
           value="https://google.com.br"
-          logoSize={80}
-          logoBackgroundColor="#FFF"
+          logoSize={5}
+          logoBackgroundColor="#666"
         />
       </Code>
 
